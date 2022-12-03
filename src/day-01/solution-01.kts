@@ -1,7 +1,9 @@
 import java.io.File
 import java.io.InputStream
 
-val inputStream: InputStream = File("input-01.txt").inputStream()
+// Searching for the load of the elf with the heaviest load
+
+val inputStream: InputStream = File("input.txt").inputStream()
 var heaviestLoad = 0;
 var currentLoad = 0;
 

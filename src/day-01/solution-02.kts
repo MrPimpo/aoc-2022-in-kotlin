@@ -1,6 +1,8 @@
 import java.io.File
 import java.io.InputStream
 
+// Searching for the sum of the loads of the 3 elfs with the 3 heaviest loads
+
 val inputStream: InputStream = File("input-01.txt").inputStream();
 val heaviestLoad = IntArray(3);
 var currentLoad = 0;
